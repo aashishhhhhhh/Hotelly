@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:System="clr-namespace:System;assembly=netstandard"
+             x:Class="Hotelapp.Booking"
+             BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="20">
+
+            <!-- Page Title -->
+            <Label Text="Book Your Stay"
+                   FontSize="28"
+                   HorizontalOptions="Center"
+                   TextColor="#00796B"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,10" />
+
+            <!-- Select Hotel Frame -->
+            <Frame CornerRadius="15" HasShadow="True" Padding="15" BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Select Hotel"
+                           FontSize="Small"
+                           TextColor="#00796B"
+                           FontAttributes="Bold" />
+                    <Picker x:Name="HotelPicker"
+                            Title="Choose hotel"
+                            TitleColor="Gray"
+                            TextColor="Black"
+                            BackgroundColor="Transparent" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Guests Frame -->
+            <Frame CornerRadius="15" HasShadow="True" Padding="15" BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Number of Guests"
+                           FontSize="Small"
+                           TextColor="#00796B"
+                           FontAttributes="Bold" />
+                    <Entry x:Name="GuestsEntry"
+                           Placeholder="Enter number of guests"
+                           Keyboard="Numeric"
+                           TextChanged="GuestsEntry_TextChanged" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Rooms Frame -->
+            <Frame CornerRadius="15" HasShadow="True" Padding="15" BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Number of Rooms"
+                           FontSize="Small"
+                           TextColor="#00796B"
+                           FontAttributes="Bold" />
+                    <Picker x:Name="RoomsPicker"
+                            Title="Choose rooms"
+                            TitleColor="Gray"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            SelectedIndexChanged="RoomsPicker_SelectedIndexChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>1</x:String>
+                                <x:String>2</x:String>
+                                <x:String>3</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <!-- Bed Type Frame -->
+            <Frame CornerRadius="15" HasShadow="True" Padding="15" BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Bed Type"
+                           FontSize="Small"
+                           TextColor="#00796B"
+                           FontAttributes="Bold" />
+                    <Picker x:Name="BedTypePicker"
+                            Title="Choose bed type"
+                            TitleColor="Gray"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            SelectedIndexChanged="BedTypePicker_SelectedIndexChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Single</x:String>
+                                <x:String>Double</x:String>
+                                <x:String>Triple</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <!-- Check-In and Check-Out Dates -->
+            <StackLayout Spacing="20">
+                <!-- Check-In Date -->
+                <Label Text="Check-In Date"
+                       FontSize="Small"
+                       TextColor="#00796B"
+                       FontAttributes="Bold" />
+                <DatePicker x:Name="CheckInDatePicker"
+                            Format="d"
+                            MinimumDate="{Binding Source={x:Static System:DateTime.Now}}"
+                            DateSelected="CheckInDatePicker_DateSelected" />
+
+                <!-- Check-Out Date -->
+                <Label Text="Check-Out Date"
+                       FontSize="Small"
+                       TextColor="#00796B"
+                       FontAttributes="Bold" />
+                <DatePicker x:Name="CheckOutDatePicker"
+                            Format="d"
+                            MinimumDate="{Binding Source={x:Static System:DateTime.Now}}"
+                            DateSelected="CheckOutDatePicker_DateSelected" />
+            </StackLayout>
+
+            <!-- Estimated Price -->
+            <Label x:Name="EstimatedPriceLabel"
+                   FontSize="Medium"
+                   TextColor="#00796B"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,10" />
+
+            <!-- Confirm Button -->
+            <Button Text="Confirm Booking"
+                    BackgroundColor="#00796B"
+                    TextColor="White"
+                    Padding="15,0"
+                    HorizontalOptions="FillAndExpand"
+                    Clicked="OnConfirmBookingClicked" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

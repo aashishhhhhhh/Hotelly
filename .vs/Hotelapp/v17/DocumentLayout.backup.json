@@ -1,0 +1,459 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mobile  app development\\Hotelapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\createaccountpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\createaccountpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\booking.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\booking.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\createaccountpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\createaccountpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\bookingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\bookingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\hotelapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\hotelapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\mybookings.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\mybookings.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\hottel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\hottel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\viewhotel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\viewhotel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\viewhotel.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\viewhotel.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\hoteldetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\hoteldetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\hoteldetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\hoteldetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\mybookings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\mybookings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF7F40E-1E8F-4E40-9057-AEFBEEB71BA4}|Hotelapp\\Hotelapp.Android\\Hotelapp.Android.csproj|C:\\Mobile  app development\\Hotelapp\\hotelapp\\hotelapp.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{3DF7F40E-1E8F-4E40-9057-AEFBEEB71BA4}|Hotelapp\\Hotelapp.Android\\Hotelapp.Android.csproj|solutionrelative:hotelapp\\hotelapp.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF7F40E-1E8F-4E40-9057-AEFBEEB71BA4}|Hotelapp\\Hotelapp.Android\\Hotelapp.Android.csproj|C:\\Mobile  app development\\Hotelapp\\hotelapp\\hotelapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF7F40E-1E8F-4E40-9057-AEFBEEB71BA4}|Hotelapp\\Hotelapp.Android\\Hotelapp.Android.csproj|solutionrelative:hotelapp\\hotelapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\bookingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\bookingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|c:\\mobile  app development\\hotelapp\\hotelapp\\hotelapp\\hotelapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C373F10-55BE-42D7-B111-EAB07F9BE9D8}|Hotelapp\\Hotelapp\\Hotelapp.csproj|solutionrelative:hotelapp\\hotelapp\\hotelapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\LoginPage.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\LoginPage.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T21:21:39.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Booking.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\Booking.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Booking.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\Booking.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T19:57:12.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\App.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\App.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:53:25.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAccountPage.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\CreateAccountPage.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\CreateAccountPage.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\CreateAccountPage.xaml.cs*",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\CreateAccountPage.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:31:05.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:21:44.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MainPage.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:54:28.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateAccountPage.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\CreateAccountPage.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\CreateAccountPage.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\CreateAccountPage.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\CreateAccountPage.xaml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T21:31:02.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\UserService.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\UserService.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\UserService.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\UserService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:46:20.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:51:45.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Booking.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\Booking.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Booking.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\Booking.xaml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:33:09.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hotelapp",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-06T22:01:29.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingManager.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingManager.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\BookingManager.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingManager.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\BookingManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:30:57.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\HotelDetails.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\HotelDetails.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\HotelDetails.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\HotelDetails.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:55:07.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingModel.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingModel.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\BookingModel.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingModel.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\BookingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:31:00.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyBookings.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MyBookings.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\MyBookings.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MyBookings.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\MyBookings.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-31T04:00:00.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewHotel.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ViewHotel.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\ViewHotel.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ViewHotel.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\ViewHotel.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwv10AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:13:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewHotel.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ViewHotel.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\ViewHotel.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\ViewHotel.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\ViewHotel.xaml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-31T04:00:31.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HotelDetails.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\HotelDetails.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\HotelDetails.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\HotelDetails.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\HotelDetails.xaml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-31T04:56:47.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Hottel.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hottel.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\Hottel.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hottel.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\Hottel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:59:47.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyBookings.xaml.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MyBookings.xaml.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\MyBookings.xaml.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MyBookings.xaml.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\MyBookings.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:44:21.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\MainPage.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\MainPage.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\MainPage.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-31T07:13:00.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\App.xaml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\App.xaml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\App.xaml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T19:57:03.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookingPage.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingPage.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\BookingPage.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\BookingPage.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\BookingPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:05:03.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "Hotelapp\\Hotelapp.Android\\Properties\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-05T06:43:56.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp.Android\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Hotelapp\\Hotelapp.Android\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T06:46:54.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Hotelapp.csproj",
+              "DocumentMoniker": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "RelativeDocumentMoniker": "Hotelapp\\Hotelapp\\Hotelapp.csproj",
+              "ToolTip": "C:\\Mobile  app development\\Hotelapp\\Hotelapp\\Hotelapp\\Hotelapp.csproj*",
+              "RelativeToolTip": "Hotelapp\\Hotelapp\\Hotelapp.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-30T19:56:57.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

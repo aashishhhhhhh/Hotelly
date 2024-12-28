@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.MyBookings"
+             BackgroundColor="#E0F7FA">
+
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="My Bookings"
+               FontSize="30"
+               TextColor="#00796B"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               Margin="0,20" />
+
+        <ListView x:Name="BookingsListView"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="10" 
+                               Padding="10" 
+                               Margin="5"
+                               BackgroundColor="White"
+                               HasShadow="True">
+                            <StackLayout>
+                                <!-- Hotel Name -->
+                                <Label Text="{Binding HotelName}"
+                                       FontSize="Large"
+                                       FontAttributes="Bold"
+                                       TextColor="#00796B" />
+
+                                <!-- Booking Details -->
+                                <Label Text="{Binding DisplayInfo}"
+                                       FontSize="Medium"
+                                       TextColor="Gray" />
+
+                                <!-- Add Separator -->
+                                <BoxView HeightRequest="1" 
+                                         BackgroundColor="#B2DFDB"
+                                         Margin="0,5,0,0" />
+
+                                <!-- Additional Info - Example placeholder, adjust as needed -->
+                                <Label Text="Status: Confirmed"
+                                       FontSize="Small"
+                                       TextColor="Green" />
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

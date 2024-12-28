@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.MainPage"
+             BackgroundColor="#E0F7FA">
+
+    <AbsoluteLayout>
+        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand">
+
+                <Label Text="Welcome to HotelApp"
+                       FontSize="36"
+                       HorizontalOptions="Center"
+                       TextColor="#004D40"
+                       FontAttributes="Bold"
+                       Margin="0,20" />
+
+                <StackLayout Spacing="20">
+                    <Frame CornerRadius="20" HasShadow="True" Padding="0" HeightRequest="250" BackgroundColor="#00796B">
+                        <Grid>
+                            <Image Source="https://shorturl.at/AsHcy"
+                                   Aspect="AspectFill" 
+                                   HeightRequest="150" 
+                                   Opacity="0.9" />
+                            <Label Text="View Hotels"
+                                   FontSize="22"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   TextColor="White"
+                                   FontAttributes="Bold"
+                                   BackgroundColor="Transparent" />
+                        </Grid>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnViewHotelsClicked" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+
+                    <Frame CornerRadius="20" HasShadow="True" Padding="0" HeightRequest="250" BackgroundColor="#00796B">
+                        <Grid>
+                            <Image Source="https://imgs.search.brave.com/l96ySQYvXqcU4Qn7LMFK-g0ITtf2x-crCkNWhXk50EM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWFzZW15dHJpcC5j/b20vaG90ZWxzL2lt/YWdlcy9sdXh1YXJ5/LWhvdGVsLndlYnA" 
+                                   Aspect="AspectFill" 
+                                   HeightRequest="150" 
+                                   Opacity="0.9" />
+                            <Label Text="Book Now"
+                                   FontSize="22"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   TextColor="White"
+                                   FontAttributes="Bold"
+                                   BackgroundColor="Transparent" />
+                        </Grid>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnBookHotelClicked" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+
+                    <Frame CornerRadius="20" HasShadow="True" Padding="0" HeightRequest="250" BackgroundColor="#00796B">
+                        <Grid>
+                            <Image Source="https://shorturl.at/OWLlh" 
+                                   Aspect="AspectFill" 
+                                   HeightRequest="150" 
+                                   Opacity="0.9" />
+                            <Label Text="My Bookings"
+                                   FontSize="22"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   TextColor="White"
+                                   FontAttributes="Bold"
+                                   BackgroundColor="Transparent" />
+                        </Grid>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMyBookingsClicked" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

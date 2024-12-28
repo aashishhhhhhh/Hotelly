@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.ProfilePage"
+             Title="Profile"
+             BackgroundColor="#E0F7FA">
+
+    <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand">
+
+        <!-- Profile Picture -->
+        <Frame WidthRequest="120" HeightRequest="120" CornerRadius="60" HasShadow="True" BackgroundColor="#00796B" HorizontalOptions="Center">
+            <Image Source="profile_placeholder.png" Aspect="AspectFill"/>
+        </Frame>
+
+        <!-- Name -->
+        <Label x:Name="UserNameLabel"
+               Text="User Name"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="#00796B"
+               FontAttributes="Bold" />
+
+        <!-- Email -->
+        <Label x:Name="UserEmailLabel"
+               Text="user@example.com"
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="#004D40" />
+
+        <!-- Edit Profile Button -->
+        <Button Text="Edit Profile"
+                BackgroundColor="#004D40"
+                TextColor="White"
+                CornerRadius="25"
+                Clicked="OnEditProfileClicked" />
+
+        <!-- Log Out Button -->
+        <Button Text="Log Out"
+                BackgroundColor="Red"
+                TextColor="White"
+                CornerRadius="25"
+                Clicked="OnLogOutClicked" />
+    </StackLayout>
+</ContentPage>

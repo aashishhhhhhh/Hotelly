@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.ViewHotel"
+             BackgroundColor="#F0F4F8">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15" Spacing="10">
+                <!-- Search Bar -->
+                <StackLayout Orientation="Horizontal">
+                    <SearchBar x:Name="SearchBar"
+                               Placeholder="Search for hotels"
+                               TextChanged="OnSearchTextChanged" 
+                               HorizontalOptions="FillAndExpand" />
+                    <Button Text="Clear" Clicked="OnClearSearchClicked" />
+                </StackLayout>
+
+                <!-- Location Picker -->
+                <StackLayout Orientation="Horizontal">
+                    <Picker x:Name="LocationPicker"
+                            Title="Select Location"
+                            SelectedIndexChanged="OnLocationChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Kathmandu</x:String>
+                                <x:String>Pokhara</x:String>
+                                <x:String>Jhapa</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Button Text="Clear" Clicked="OnClearLocationClicked" />
+                </StackLayout>
+
+                <!-- Hotels List View -->
+                <ListView x:Name="HotelsListView"
+                          HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="10" Orientation="Vertical">
+                                    <Image Source="{Binding ImageUrl}" 
+                                           Aspect="AspectFill" 
+                                           HeightRequest="200" 
+                                           HorizontalOptions="FillAndExpand" />
+                                    <Label Text="{Binding Name}" 
+                                           FontSize="24" 
+                                           FontAttributes="Bold" 
+                                           Margin="0,5,0,0" />
+                                    <Label Text="{Binding Location}" 
+                                           FontSize="16" 
+                                           TextColor="Gray" />
+                                    <Label Text="{Binding Rating, StringFormat='Rating: {0:F1}'}" 
+                                           FontSize="16" 
+                                           TextColor="#FFAA00" />
+                                    <Label Text="{Binding PricePerNight, StringFormat='Price: {0:C}'}" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#00796B" />
+                                    <Button Text="View Details" 
+                                            CommandParameter="{Binding .}" 
+                                            Clicked="OnViewDetailsClicked" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.LoginPage"
+             BackgroundColor="#E0F7FA">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Center" Spacing="15">
+            <Label Text="Welcome to HotelApp!" 
+                   FontSize="35" 
+                   HorizontalOptions="Center" 
+                   TextColor="#00796B" 
+                   FontAttributes="Bold" />
+
+            <Frame BackgroundColor="White" CornerRadius="25" Padding="0" Margin="0,10">
+                <Entry x:Name="EmailEntry" 
+                       Placeholder="Email" 
+                       Keyboard="Email" 
+                       TextColor="#333" 
+                       PlaceholderColor="#aaaaaa" 
+                       Margin="10" />
+            </Frame>
+
+            <Frame BackgroundColor="White" CornerRadius="25" Padding="0" Margin="0,10">
+                <Entry x:Name="PasswordEntry" 
+                       Placeholder="Password" 
+                       IsPassword="True" 
+                       TextColor="#333" 
+                       PlaceholderColor="#aaaaaa" 
+                       Margin="10" />
+            </Frame>
+
+            <Button Text="Login" 
+                    BackgroundColor="#00796B" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    CornerRadius="25" 
+                    HeightRequest="50" 
+                    Clicked="OnLoginClicked" />
+
+            <Button Text="Create Account" 
+                    BackgroundColor="#00796B" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    CornerRadius="25" 
+                    HeightRequest="50" 
+                    Margin="0,10" 
+                    Clicked="OnCreateAccountClicked" />
+
+            <Label Text="Forgot Password?" 
+                   FontSize="15" 
+                   HorizontalOptions="Center" 
+                   TextColor="#00796B" 
+                   Margin="0,10">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

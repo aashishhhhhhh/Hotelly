@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hotelapp.HotelDetails"
+             BackgroundColor="#F0F4F8">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15" Spacing="15">
+
+                <!-- Hotel Image -->
+                <Frame BorderColor="#00796B" CornerRadius="10" HasShadow="True" Padding="0">
+                    <Image x:Name="HotelImage" 
+                           Aspect="AspectFill" 
+                           HeightRequest="250" 
+                           HorizontalOptions="FillAndExpand" />
+                </Frame>
+
+                <!-- Hotel Name -->
+                <Label x:Name="HotelName" 
+                       FontSize="32" 
+                       FontAttributes="Bold" 
+                       TextColor="#00796B" 
+                       HorizontalOptions="Center" 
+                       Margin="0,10" 
+                       LineBreakMode="WordWrap" />
+
+                <!-- Hotel Location -->
+                <Label x:Name="HotelLocation" 
+                       FontSize="18" 
+                       TextColor="#555" 
+                       HorizontalOptions="Center" 
+                       Margin="0,0,0,5" />
+
+                <!-- Rating and Price Section -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                    <!-- Rating -->
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                        <Image Source="https://img.icons8.com/ios-filled/50/FFAA00/star.png" 
+                               WidthRequest="20" 
+                               HeightRequest="20" />
+                        <Label x:Name="HotelRating" 
+                               FontSize="20" 
+                               TextColor="#FFAA00" 
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <!-- Price Per Night -->
+                    <Label x:Name="HotelPrice" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           TextColor="#00796B" 
+                           VerticalOptions="Center" />
+                </StackLayout>
+
+                <!-- Divider -->
+                <BoxView HeightRequest="1" BackgroundColor="#B0BEC5" HorizontalOptions="FillAndExpand" />
+
+                <!-- Hotel Description -->
+                <Label x:Name="HotelDescription" 
+                       FontSize="16" 
+                       TextColor="#333" 
+                       HorizontalOptions="Start" 
+                       Margin="0,10" 
+                       LineBreakMode="WordWrap" />
+
+                <!-- Additional Hotel Details -->
+                <Label Text="Amenities:" 
+                       FontSize="20" 
+                       FontAttributes="Bold" 
+                       TextColor="#00796B" 
+                       Margin="0,10" />
+                <Label x:Name="HotelAmenities" 
+                       FontSize="16" 
+                       TextColor="#333" 
+                       HorizontalOptions="Start" 
+                       LineBreakMode="WordWrap" />
+
+                <Label Text="Contact Info:" 
+                       FontSize="20" 
+                       FontAttributes="Bold" 
+                       TextColor="#00796B" 
+                       Margin="0,10" />
+                <Label x:Name="HotelContactInfo" 
+                       FontSize="16" 
+                       TextColor="#333" 
+                       HorizontalOptions="Start" 
+                       LineBreakMode="WordWrap" />
+                <Label x:Name="HotelEmail" 
+                       FontSize="16" 
+                       TextColor="#333" 
+                       HorizontalOptions="Start" 
+                       LineBreakMode="WordWrap" />
+
+                <!-- Book Now Button -->
+                <Button Text="Book Now" 
+                        BackgroundColor="#00796B" 
+                        TextColor="White" 
+                        FontSize="22" 
+                        CornerRadius="25" 
+                        HeightRequest="50" 
+                        Clicked="OnBookNowClicked" 
+                        Margin="0,15" 
+                        HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
